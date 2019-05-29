@@ -17,33 +17,24 @@ namespace Prova
 
         public string Nome
         {
-            get { return GetProperty(() => Nome); }
-            set { SetProperty(() => Nome, value, UpdateNome); }
+            get { return _persona.Nome; }
+            set { _persona.Nome = value; RaisePropertyChanged(); }
         }
-        void UpdateNome()
-        {
-            RaisePropertyChanged(() => Nome);
-        }
+        
         
         public string Cognome
         {
-            get { return GetProperty(() => Cognome); }
-            set { SetProperty(() => Cognome, value, UpdateCognome); }
+            get { return _persona.Cognome; }
+            set { _persona.Cognome = value; RaisePropertyChanged(); }
         }
-        void UpdateCognome()
-        {
-            RaisePropertyChanged(() => Cognome);
-        }
+        
 
         public string Telefono
         {
-            get { return GetProperty(() => Telefono); }
-            set { SetProperty(() => Telefono, value, UpdateTelefono); }
+            get { return _persona.Telefono; }
+            set { _persona.Telefono = value; RaisePropertyChanged(); }
         }
-        void UpdateTelefono()
-        {
-            RaisePropertyChanged(() => Telefono);
-        }
+       
 
         public ICommand TestCommand { get; set; }
         private void Test(object obj)
