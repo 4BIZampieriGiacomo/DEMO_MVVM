@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Prova
 {
@@ -19,6 +20,10 @@ namespace Prova
                                 $"Cognome: {Cognome}\r\n" +
                                 $"Telefono: {Telefono}";
             return serializza;
+        }
+        public void Salva()
+        {
+            
         }
     }
 }
