@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersonaViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Marco</Nome>
+      <Cognome>a</Cognome>
+      <Telefono>1234</Telefono>
+    </_Persona>
+    <Nome>Marco</Nome>
+    <Cognome>a</Cognome>
+    <Telefono>1234</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Mattia</Nome>
+      <Cognome>b</Cognome>
+      <Telefono>4321</Telefono>
+    </_Persona>
+    <Nome>Mattia</Nome>
+    <Cognome>b</Cognome>
+    <Telefono>4321</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Sasa</Nome>
+      <Cognome>c</Cognome>
+      <Telefono>1111</Telefono>
+    </_Persona>
+    <Nome>Sasa</Nome>
+    <Cognome>c</Cognome>
+    <Telefono>1111</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Name</Nome>
+      <Cognome>Surname</Cognome>
+      <Telefono>Phone Number</Telefono>
+    </_Persona>
+    <Nome>Name</Nome>
+    <Cognome>Surname</Cognome>
+    <Telefono>Phone Number</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Name</Nome>
+      <Cognome>Surname</Cognome>
+      <Telefono>Phone Number</Telefono>
+    </_Persona>
+    <Nome>Name</Nome>
+    <Cognome>Surname</Cognome>
+    <Telefono>Phone Number</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Name</Nome>
+      <Cognome>Surname</Cognome>
+      <Telefono>Phone Number</Telefono>
+    </_Persona>
+    <Nome>Name</Nome>
+    <Cognome>Surname</Cognome>
+    <Telefono>Phone Number</Telefono>
+  </PersonaViewModel>
+  <PersonaViewModel>
+    <_Persona>
+      <Nome>Name</Nome>
+      <Cognome>ytu</Cognome>
+      <Telefono>Phone 0</Telefono>
+    </_Persona>
+    <Nome>Name</Nome>
+    <Cognome>ytu</Cognome>
+    <Telefono>Phone 0</Telefono>
+  </PersonaViewModel>
+</ArrayOfPersonaViewModel>
