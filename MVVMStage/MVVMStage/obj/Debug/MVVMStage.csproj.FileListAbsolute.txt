@@ -16,3 +16,21 @@ C:\Users\utente\Desktop\MVVMStage\MVVMStage\bin\Debug\DevExpress.Mvvm.v19.1.dll
 C:\Users\utente\Desktop\MVVMStage\MVVMStage\bin\Debug\DevExpress.Mvvm.v19.1.xml
 C:\Users\utente\Desktop\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csprojAssemblyReference.cache
 C:\Users\utente\Desktop\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csproj.CopyComplete
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage_MarkupCompile.cache
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage_MarkupCompile.lref
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.exe
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.pdb
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\bin\Debug\MVVMStage.exe.config
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\bin\Debug\MVVMStage.exe
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\bin\Debug\MVVMStage.pdb
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\bin\Debug\DevExpress.Mvvm.v19.1.dll
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\bin\Debug\DevExpress.Mvvm.v19.1.xml
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.g.resources
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.Properties.Resources.resources
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Nuova cartella (3)\DEMO_MVVM\MVVMStage\MVVMStage\obj\Debug\MVVMStage.csproj.CopyComplete

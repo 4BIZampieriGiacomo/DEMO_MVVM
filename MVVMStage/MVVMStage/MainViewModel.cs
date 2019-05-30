@@ -24,8 +24,9 @@ namespace MVVMStage
             this.Persone.Add(new PersonaViewModel() { Nome = "Mattia", Cognome = "b", Telefono = "4321" });
             this.Persone.Add(new PersonaViewModel() { Nome = "Sasa", Cognome = "c", Telefono = "1111" });
             this.Apri = new RelayCommand(Open, x => PossoEseguire);
-            this.Aggiungi = new RelayCommand(Add);
-            //this.Aggiungi = new DelegateCommandBase(Open);
+            //this.Aggiungi = new RelayCommand(Add);
+            //DelegateCommand Aggiungi = new DelegateCommand(Add);
+
         }
 
         public ObservableCollection<PersonaViewModel> Persone { get; set; }
@@ -39,8 +40,21 @@ namespace MVVMStage
 
         public bool PossoEseguire { get; set; } = true;
 
-        public ICommand Aggiungi { get; set; }
-        private void Add(object obj)
+
+
+
+        //-------ICOMMAND SOSTITUITO-------//
+        DelegateCommand<PersonaViewModel> aggiungi;
+        public DelegateCommand<PersonaViewModel> Aggiungi
+        {
+            get
+            {
+                return aggiungi ??
+                    (aggiungi = new DelegateCommand<PersonaViewModel>(Add));
+            }
+        }
+        //public ICommand Aggiungi { get; set; }
+        void Add(object obj)
         {
             PersonaViewModel p;
             if (obj == null)
@@ -55,6 +69,8 @@ namespace MVVMStage
                 PersonaSelezionata = (PersonaViewModel)obj;
             }
         }
+        //-------ICOMMAND SOSTITUITO-------//
+
 
         public ICommand Apri { get; set; }
         private void Open(object obj)
@@ -77,18 +93,12 @@ namespace MVVMStage
 
         private void Save()
         {
-            //SaveFileDialog sf = new SaveFileDialog();
-            //if ((bool)sf.ShowDialog())
-            //{
-            using (StreamWriter file = new StreamWriter("C:\\Users\\utente\\Desktop\\Contacts.xml"/*sf.FileName*/,false))
+            using (StreamWriter file = new StreamWriter("C:\\Users\\utente\\Desktop\\Contacts.xml",false))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(ObservableCollection<PersonaViewModel>));
                 serializer.Serialize(file, Persone);
                 file.Close();
             }
-            //}
         }
-
-
     }
 }
